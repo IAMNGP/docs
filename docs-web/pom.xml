@@ -113,6 +113,12 @@
       <artifactId>servlet</artifactId>
     </dependency>
     
+   <!-- Postgres DB -->	  
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>9.2-1003-jdbc3</version>
+    </dependency>
     <!-- Test dependencies -->
     <dependency>
       <groupId>com.sismics.docs</groupId>
