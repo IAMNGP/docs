@@ -497,7 +497,7 @@ angular.module('docs',
   // Fetch the current theme configuration
   $rootScope.appName = '';
   Restangular.one('theme').get().then(function(data) {
-    $rootScope.appName = data.name;
+    $rootScope.appName = 'dAppBox';
   });
 
   // Languages
