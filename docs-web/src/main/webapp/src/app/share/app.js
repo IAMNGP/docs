@@ -132,6 +132,6 @@ angular.module('share',
   // Fetch the current theme configuration
   $rootScope.appName = '';
   Restangular.one('theme').get().then(function(data) {
-    $rootScope.appName = 'dAppBox';
+    $rootScope.appName = 'CLSS';
   });
 });
